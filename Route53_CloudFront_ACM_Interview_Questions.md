@@ -83,7 +83,7 @@ Explained in simple, easy language so preparation feels easy.
 **Answer:** CloudFront is AWS's CDN (Content Delivery Network) service. It caches your content (images, videos, web pages, APIs) at edge locations around the world, so users get content delivered from a server closer to them — resulting in faster load times.
 
 ### 16. What is an Edge Location?
-**Answer:** Edge Locations are data centers spread across the world where CloudFront caches copies of your content. When a user requests content, CloudFront serves it from the nearest edge location instead of the original server, reducing latency.
+**Answer:** Edge Locations are the locaton where data of our copies stored when user request cloudfront server the request to edge locaiton 
 
 ### 17. What is an Origin in CloudFront?
 **Answer:** The Origin is the source location where your original content is stored — it could be an S3 bucket, an EC2 server, a Load Balancer, or any custom HTTP server. CloudFront pulls content from the origin and caches it at edge locations.
