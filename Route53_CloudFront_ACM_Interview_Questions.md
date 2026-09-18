@@ -86,8 +86,7 @@ Explained in simple, easy language so preparation feels easy.
 **Answer:** Edge Locations are the locaton where data of our copies stored when user request cloudfront server the request to edge locaiton 
 
 ### 17. What is an Origin in CloudFront?
-**Answer:** The Origin is the source location where your original content is stored — it could be an S3 bucket, an EC2 server, a Load Balancer, or any custom HTTP server. CloudFront pulls content from the origin and caches it at edge locations.
-
+**Answer:** The Origin is the source location where your original content is stored — it could be an S3 bucket, an EC2 server, a Load Balancer, or any custom HTTP server. 
 ### 18. What is a Distribution in CloudFront?
 **Answer:** A Distribution is the configuration you create in CloudFront that tells it what origin to pull content from, what caching rules to use, which domain to serve, etc. There are two types:
 - **Web Distribution:** For websites, APIs, and general content
